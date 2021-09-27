@@ -1,4 +1,4 @@
-# GHSurv
+# GHSurv R package
 The `GHSurv` R package implements the parametric General Hazards (GH) regression model studied in 
 
 > Rubio, F. J., Remontet, L., Jewell, N. P., & Belot, A. (2019). On a general structure for hazard-based regression models: 
