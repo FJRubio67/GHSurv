@@ -1,10 +1,10 @@
 # GHSurv R package
-The `GHSurv` R package implements the parametric General Hazards (GH) regression model studied in 
+The `GHSurv` R package implements the parametric General Hazards (GH) regression model studied in:
 
 > Rubio, F. J., Remontet, L., Jewell, N. P., & Belot, A. (2019). On a general structure for hazard-based regression models: 
-an application to population-based cancer research. Statistical methods in medical research, 28(8), 2404-2417.
+an application to population-based cancer research. Statistical Methods in Medical Research, 28(8), 2404-2417.
 
-The GH model contains the Proportional hazards ($\alpha=0$), accelerated hazards ($\beta=0$), and accelerated failure time ($\alpha = \beta$, $\tilde{\bf x} = {\bf x}$) models as particular cases. 
+The GH model contains the Proportional hazards, accelerated hazards, and accelerated failure time models as particular cases. 
 
 This implementation allows for using the GH model in the Overall (for hazard regression models) and Relative (for excess hazard regression models) 
 survival frameworks, using the commands `GHMLE` and `GEHMLE`. For more information on these frameworks, we refer the reader to the paper
