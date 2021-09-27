@@ -10,6 +10,13 @@ This implementation allows for using the GH model in the Overall (for hazard reg
 survival frameworks, using the commands `GHMLE` and `GEHMLE`. For more information on these frameworks, we refer the reader to the paper
 [On a general structure for hazard-based regression models: an application to population-based cancer research](https://doi.org/10.1177%2F0962280218782293).
 
+To install the `GHSurv` R package use:
+
+```
+library(devtools)
+install_github("FJRubio67/GHSurv")
+```
+
 
 Two illustrative examples (for the Overall and Relative survival frameworks) on the use of the `GHSurv` R package using the [Simulacrum](https://rpubs.com/FJRubio/GHSimulacrum) data set can be found at:
 
