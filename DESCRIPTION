@@ -1,0 +1,13 @@
+Package: GHSurv
+Type: Package
+Title: Parametric General Hazards models
+Version: 0.1.0
+Author: F. Javier Rubio
+Maintainer: The package maintainer <fxrubio@gmail.com>
+Description: Fits parametric General Hazards (GH) regression models in the relative and overal survival frameworks.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    numDeriv
