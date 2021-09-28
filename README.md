@@ -8,6 +8,7 @@ https://doi.org/10.1177%2F0962280218782293
 This implementation allows for using the GH model in the Overall (hazard regression models) and Relative (excess hazard regression models) 
 survival frameworks, using the commands `GHMLE` and `GEHMLE`. 
 The `GHSurv` R package implements the GH model with several parametric baseline hazards, which are specified through the option `hstr` (Overall and Relative survival): lognormal (LNGH, LNGEH), log-logistic (LLGH,LLGEH), Gamma (GGH, GGEH), [Power Generalised Weibull](https://rpubs.com/FJRubio/PGW) (PGWGH, PGWGEH) , [Exponentiated Weibull](https://rpubs.com/FJRubio/EWD) (EWGH, EWGEH), and [Generalised Gamma](https://rpubs.com/FJRubio/GG) (GGGH, GGGEH) baseline hazards.
+Currently, only right-censoring is allowed, and specified through the option `status`.
 
 These models are fitted using the R commands `nlminb` and `optim`. Thus, the user needs to specify the initial points and to check the convergence of the
 optimisation step, as usual.
