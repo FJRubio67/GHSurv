@@ -25,7 +25,7 @@ library(GHSurv)
 ```
 
 
-Two illustrative examples (for the Overall and Relative survival frameworks) on the use of the `GHSurv` R package using the [Simulacrum](https://rpubs.com/FJRubio/GHSimulacrum) data set (available in this repository in the file `data_lung.Rda`) can be found at:
+Two illustrative examples (for the Overall and Relative survival frameworks) on the use of the `GHSurv` R package using the [Simulacrum](https://healthdatainsight.org.uk/project/the-simulacrum/) data set (available in this repository in the file `data_lung.Rda`) can be found at:
 
 1. [Simulacrum data: lung cancer and Overall Survival GH model](https://rpubs.com/FJRubio/GHSimulacrum)
 
