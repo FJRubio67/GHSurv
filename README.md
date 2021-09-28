@@ -30,3 +30,5 @@ Two illustrative examples (for the Overall and Relative survival frameworks) on 
 1. [Simulacrum data: lung cancer and Overall Survival GH model](https://rpubs.com/FJRubio/GHSimulacrum)
 
 2. [Simulacrum data: lung cancer and Net Survival GH model](https://rpubs.com/FJRubio/GEHSimulacrum)
+
+See also: [LBANS](https://github.com/FJRubio67/LBANS)
