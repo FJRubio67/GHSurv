@@ -7,7 +7,10 @@ an application to population-based cancer research. Statistical Methods in Medic
 The GH model contains the Proportional hazards, accelerated hazards, and accelerated failure time models as particular cases. 
 
 This implementation allows for using the GH model in the Overall (for hazard regression models) and Relative (for excess hazard regression models) 
-survival frameworks, using the commands `GHMLE` and `GEHMLE`. For more information on these frameworks, we refer the reader to the paper
+survival frameworks, using the commands `GHMLE` and `GEHMLE`. 
+These models are fitted using the R commands `nlminb` and `optim`. Thus, the user needs to specify the initial points and check the convergence of the
+optimisation step, as usual.
+For more information on these frameworks, we refer the reader to the paper
 [On a general structure for hazard-based regression models: an application to population-based cancer research](https://doi.org/10.1177%2F0962280218782293).
 
 To install the `GHSurv` R package use:
